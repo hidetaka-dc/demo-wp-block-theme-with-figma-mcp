@@ -69,18 +69,23 @@
 				},
 				{
 					"color": "#313139",
-					"name": "Gray 900",
-					"slug": "gray-900"
+					"name": "Dark Gray",
+					"slug": "dark-gray"
 				},
 				{
 					"color": "#4a4b58",
-					"name": "Gray 700",
-					"slug": "gray-700"
+					"name": "Gray",
+					"slug": "gray"
 				},
 				{
 					"color": "#f7f7f8",
 					"name": "Light Gray",
 					"slug": "light-gray"
+				},
+				{
+					"color": "#007cba",
+					"name": "Primary",
+					"slug": "primary"
 				}
 			]
 		},
