@@ -14,3 +14,154 @@ Text Domain: figma-demo
 Tags: 
 */
 
+/* Google Fonts - Noto Sans JP */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+/* ヘッダー用のカスタムスタイル */
+.wp-block-group.alignfull:first-of-type {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* サイトロゴのスタイル */
+.wp-block-site-logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* サイトタイトルのスタイル */
+.wp-block-site-title a {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* サイトタグラインのスタイル */
+.wp-block-site-tagline {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #666666;
+}
+
+/* ナビゲーションのスタイル */
+.wp-block-navigation {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wp-block-navigation a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.wp-block-navigation a:hover {
+    color: #0073aa;
+}
+
+/* ヘッダーボタンのスタイル */
+.wp-block-button__link {
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.wp-block-button__link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 404ページ用のカスタムスタイル */
+.wp-block-group.alignfull {
+    background-color: #ffffff;
+}
+
+/* 404エラー画像のスタイル */
+.wp-block-image.size-medium img {
+    width: 380px !important;
+    height: 148px !important;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+/* 404ページのメインコンテンツエリア */
+.wp-block-group.alignfull:first-of-type {
+    background-color: #ffffff;
+    padding: 120px 0;
+}
+
+/* 404ページのCTAエリア */
+.wp-block-group.alignfull:last-of-type {
+    background-color: #f7f7f8;
+    padding: 64px 120px 120px 120px;
+}
+
+/* ボタンのスタイル */
+.wp-block-button__link {
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wp-block-button__link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .wp-block-group.alignfull:last-of-type {
+        padding: 40px 20px 80px 20px;
+    }
+    
+    .wp-block-image.size-medium img {
+        width: 280px !important;
+        height: 108px !important;
+    }
+    
+    .wp-block-heading {
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+    
+    .wp-block-group.alignfull:first-of-type {
+        padding: 80px 0;
+    }
+}
+
+/* フォントファミリーの設定 */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wp-block-heading {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wp-block-paragraph {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* カラーパレットの設定 */
+:root {
+    --wp--preset--color--primary: #0073aa;
+    --wp--preset--color--black: #000000;
+    --wp--preset--color--white: #ffffff;
+    --wp--preset--color--gray: #666666;
+    --wp--preset--color--light-gray: #f7f7f8;
+}
+
+/* アニメーション */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.wp-block-group {
+    animation: fadeInUp 0.6s ease-out;
+}
+

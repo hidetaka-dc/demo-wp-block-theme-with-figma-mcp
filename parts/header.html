@@ -1,30 +1,60 @@
 <!-- wp:group {"layout":{"inherit":"true"}} -->
 <div class="wp-block-group">
-	<!-- wp:group {"align":"full","layout":{"type":"flex","justifyContent":"space-between"},"style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}}} -->
-	<div class="wp-block-group alignfull" style="padding-bottom:30px;padding-top:30px">
+	<!-- wp:group {"align":"full","backgroundColor":"white","style":{"spacing":{"padding":{"bottom":"20px","top":"20px","left":"40px","right":"40px"}},"border":{"bottom":{"color":"#f0f0f0","width":"1px"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
+	<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:40px;border-bottom-color:#f0f0f0;border-bottom-width:1px">
 	
-		<!-- wp:group {"layout":{"type":"flex"}} -->
+		<!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":64} /-->
-	
-			<!-- wp:group -->
+			
+			<!-- wp:group {"layout":{"type":"flex","alignItems":"center"}} -->
 			<div class="wp-block-group">
-				<!-- wp:site-title /-->
-				<!-- wp:site-tagline /-->
+				<!-- wp:site-logo {"width":180,"style":{"spacing":{"margin":{"right":"16px"}}}} /-->
+				
+				<!-- wp:group {"style":{"spacing":{"margin":{"left":"16px"}}}} -->
+				<div class="wp-block-group" style="margin-left:16px">
+					<!-- wp:site-title {"style":{"typography":{"fontSize":"24px","fontWeight":"700","letterSpacing":"1px"}},"textColor":"black"} /-->
+					<!-- wp:site-tagline {"style":{"typography":{"fontSize":"14px","lineHeight":"20px","letterSpacing":"1px"}},"textColor":"gray"} /-->
+				</div>
+				<!-- /wp:group -->
 			</div>
 			<!-- /wp:group -->
+			
+			<!-- wp:group {"layout":{"type":"flex","alignItems":"center","flexWrap":"wrap"}} -->
+			<div class="wp-block-group">
+				<!-- wp:navigation {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"right":"32px"},"blockGap":"var:preset|spacing|40"},"typography":{"fontSize":"16px","fontWeight":"500","letterSpacing":"1px"}},"textColor":"black","overlayTextColor":"white","overlayBackgroundColor":"black","className":"is-style-default"} /-->
+				
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
+				<div class="wp-block-buttons">
+					<!-- wp:button {"backgroundColor":"primary","textColor":"white","style":{"border":{"radius":"10000px"},"spacing":{"padding":{"top":"12px","bottom":"12px","left":"24px","right":"24px"}},"typography":{"fontSize":"14px","fontWeight":"700","letterSpacing":"1px"}}} -->
+					<div class="wp-block-button">
+						<a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background wp-element-button" href="/contact" style="border-radius:10000px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;font-size:14px;font-weight:700;letter-spacing:1px">お問い合わせ</a>
+					</div>
+					<!-- /wp:button -->
+				</div>
+				<!-- /wp:buttons -->
+			</div>
+			<!-- /wp:group -->
+			
 		</div>
 		<!-- /wp:group -->
+		
+	</div>
+	<!-- /wp:group -->
 	
-		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"}}}} /-->
-	
+	<!-- wp:group {"align":"full","backgroundColor":"light-gray","style":{"spacing":{"padding":{"bottom":"16px","top":"16px","left":"40px","right":"40px"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
+	<div class="wp-block-group alignfull has-light-gray-background-color has-background" style="padding-top:16px;padding-right:40px;padding-bottom:16px;padding-left:40px">
+		
+		<!-- wp:group {"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} -->
+		<div class="wp-block-group">
+			<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px","lineHeight":"20px","letterSpacing":"1px"}},"textColor":"black"} -->
+			<p class="has-text-align-center has-black-color has-text-color" style="font-size:14px;line-height:20px;letter-spacing:1px">WordPress × AWS ビジネス向けホスティング | 99.9%の可用性保証 | 24時間365日サポート</p>
+			<!-- /wp:paragraph -->
+		</div>
+		<!-- /wp:group -->
+		
 	</div>
 	<!-- /wp:group -->
 
 </div>
 <!-- /wp:group -->
-
-<!-- wp:spacer {"height":50} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
  
